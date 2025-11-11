@@ -1,0 +1,21 @@
+# COPY THESE COMMANDS ONE BY ONE
+# Replace YOUR_USERNAME with your actual GitHub username
+
+# Step 1: Navigate to project folder
+cd ecobhandu
+
+# Step 2: Initialize git (if not already done)
+git init
+
+# Step 3: Add all files
+git add .
+
+# Step 4: Create first commit
+git commit -m "Initial commit: EcoBhandu Environmental Action Platform with real-time admin dashboard"
+
+# Step 5: Add remote (REPLACE YOUR_USERNAME!)
+git remote add origin https://github.com/YOUR_USERNAME/ecobhandu.git
+
+# Step 6: Push to GitHub
+git branch -M main
+git push -u origin main
